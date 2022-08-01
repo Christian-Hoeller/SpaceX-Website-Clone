@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "D-DIN";
+  font-style: normal;
+  font-weight: normal;
+  src: local("D-DIN"), url("../fonts/D-DIN-Bold.otf") format("truetype");
+}
