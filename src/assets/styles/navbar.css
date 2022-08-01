@@ -1,8 +1,13 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 2rem;
+  margin: 2rem 2rem 3rem 25%;
 }
 
 .navbar a {
@@ -10,7 +15,6 @@
   color: white;
   text-decoration: none;
   font-family: "D-DIN";
-  letter-spacing: 1px;
 }
 
 .navbar a::selection {
@@ -19,7 +23,7 @@
 }
 
 .logo-item {
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 .logo {
@@ -31,7 +35,7 @@
 .links-right {
   display: flex;
   align-items: center;
-  gap: 1em;
+  gap: 1.5em;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
